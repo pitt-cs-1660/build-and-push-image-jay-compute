@@ -1,0 +1,17 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider" metric.label."result"="success".60s.pool_id:github.project_id:onyx-gear-440723-s4
+project_id,onyx-gear-440723-s4
+pool_id,github
+Tue Nov 05 2024 11:11:00 GMT-0500 (Eastern Standard Time),0.022221481469135596
+Tue Nov 05 2024 11:12:00 GMT-0500 (Eastern Standard Time),0.044445185197531066
+Tue Nov 05 2024 11:15:00 GMT-0500 (Eastern Standard Time),0.0055553703672839
+Tue Nov 05 2024 11:16:00 GMT-0500 (Eastern Standard Time),0.027777407401234463
+Tue Nov 05 2024 11:17:00 GMT-0500 (Eastern Standard Time),0.0333338888981483
+Tue Nov 05 2024 11:19:00 GMT-0500 (Eastern Standard Time),0.0055553703672839
+Tue Nov 05 2024 11:20:00 GMT-0500 (Eastern Standard Time),0.011111296299382767
+Tue Nov 05 2024 11:21:00 GMT-0500 (Eastern Standard Time),0.022221481469135596
+Tue Nov 05 2024 11:22:00 GMT-0500 (Eastern Standard Time),0.044445185197531066
+Tue Nov 05 2024 11:40:00 GMT-0500 (Eastern Standard Time),0.0055553703672839
+Tue Nov 05 2024 11:41:00 GMT-0500 (Eastern Standard Time),0.027777407401234463
+Tue Nov 05 2024 11:42:00 GMT-0500 (Eastern Standard Time),0.0333338888981483
+Tue Nov 05 2024 11:49:00 GMT-0500 (Eastern Standard Time),0.022221481469135596
+Tue Nov 05 2024 11:50:00 GMT-0500 (Eastern Standard Time),0.044445185197531066
