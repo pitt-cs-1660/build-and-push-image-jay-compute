@@ -3,7 +3,7 @@ on:
     branches:
       - main
       - remove-double-docker # @note: use any development branch you would like
-
+ 
 jobs:
   build-and-push-to-gcr:
     runs-on: ubuntu-22.04
