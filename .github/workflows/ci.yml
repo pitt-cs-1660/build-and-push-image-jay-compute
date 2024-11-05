@@ -38,5 +38,5 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-central1-docker.pkg.dev/onyx-gear-440723-s4/assign3/node-demo:test
+          tags: us-central1-docker.pkg.dev/onyx-gear-440723-s4/assign3/node-demo:v1
 
