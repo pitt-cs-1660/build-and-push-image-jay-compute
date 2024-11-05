@@ -1,0 +1,2045 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.86",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "CreateProject",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4",
+      "request": {
+        "project": {
+          "projectId": "onyx-gear-440723-s4",
+          "projectNumber": "283480886568",
+          "createTime": "2024-11-03T23:23:40.289377Z",
+          "lifecycleState": "ACTIVE",
+          "name": "My Project 49403"
+        },
+        "@type": "type.googleapis.com/google.cloudresourcemanager.v1.CreateProjectRequest"
+      }
+    },
+    "insertId": "-4ojzu6dz8si",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:23:42.020512Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:23:42.916181822Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.86",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/services/cloudapis.googleapis.com"
+    },
+    "insertId": "-g32soxd46ne",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": ""
+      }
+    },
+    "timestamp": "2024-11-03T23:23:42.913866Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-283480886568-7a1dc632-50ab-42d5-af7d-79e29efbb63d",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T23:23:44.237328709Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.86",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/services/cloudapis.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/onyx-gear-440723-s4/services/cloudapis.googleapis.com"
+      }
+    },
+    "insertId": "1lzwsghdmy61",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-11-03T23:23:42.913866Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-283480886568-7a1dc632-50ab-42d5-af7d-79e29efbb63d",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T23:23:44.650274684Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.86",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/283480886568/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/283480886568/operations/acat.p2-283480886568-7a1dc632-50ab-42d5-af7d-79e29efbb63d"
+    },
+    "insertId": "1es9v7hdp68w",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:23:44.123689Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:23:45.138527339Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.86",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/onyx-gear-440723-s4/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/283480886568/services/cloudapis.googleapis.com",
+          "config": {
+            "name": "cloudapis.googleapis.com",
+            "title": "Google Cloud APIs"
+          },
+          "state": "ENABLED",
+          "parent": "projects/283480886568"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "hrw6kcdjf9c",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:23:45.602235213Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-283480886568-7a1dc632-50ab-42d5-af7d-79e29efbb63d",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T23:23:45.602235213Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.86",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/onyx-gear-440723-s4/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "status": "ENABLED",
+        "services": [
+          "cloudapis.googleapis.com",
+          "analyticshub.googleapis.com",
+          "bigquery.googleapis.com",
+          "bigqueryconnection.googleapis.com",
+          "bigquerydatapolicy.googleapis.com",
+          "bigquerymigration.googleapis.com",
+          "bigqueryreservation.googleapis.com",
+          "bigquerystorage.googleapis.com",
+          "cloudtrace.googleapis.com",
+          "dataform.googleapis.com",
+          "dataplex.googleapis.com",
+          "datastore.googleapis.com",
+          "logging.googleapis.com",
+          "monitoring.googleapis.com",
+          "servicemanagement.googleapis.com",
+          "serviceusage.googleapis.com",
+          "sql-component.googleapis.com",
+          "storage-api.googleapis.com",
+          "storage-component.googleapis.com",
+          "storage.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse"
+      }
+    },
+    "insertId": "hrw6kcdjf9e",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:23:45.602235213Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-283480886568-7a1dc632-50ab-42d5-af7d-79e29efbb63d",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T23:23:45.602235213Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.86",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/283480886568/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/283480886568/operations/acat.p2-283480886568-7a1dc632-50ab-42d5-af7d-79e29efbb63d"
+    },
+    "insertId": "zte22qdkk51",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "onyx-gear-440723-s4",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T23:23:45.644565Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:23:46.331871978Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.86",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudbilling.googleapis.com",
+      "methodName": "AssignResourceToBillingAccount",
+      "authorizationInfo": [
+        {
+          "resource": "billingAccounts/0183E5-A94C18-2DE68C",
+          "permission": "billing.resourceAssociations.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/onyx-gear-440723-s4",
+          "permission": "resourcemanager.projects.createBillingAssignment",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "billingAccounts/0183E5-A94C18-2DE68C",
+          "permission": "billing.resourceAssociations.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/onyx-gear-440723-s4",
+          "permission": "resourcemanager.projects.deleteBillingAssignment",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4",
+      "request": {
+        "@type": "type.googleapis.com/google.internal.cloudbilling.billingaccount.v1.AssignResourceToBillingAccountRequest",
+        "resourceName": "projects/283480886568",
+        "billingAccountName": "billingAccounts/0183E5-A94C18-2DE68C"
+      }
+    },
+    "insertId": "-5hr9j8d1cb6",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:23:45.894490Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:23:48.039194945Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/94e2169bdbaf40a6b09a575061a258c4 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/services/artifactregistry.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/onyx-gear-440723-s4/services/artifactregistry.googleapis.com"
+      }
+    },
+    "insertId": "rr3p0pdfbcs",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T23:26:45.607999Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-283480886568-9131951a-8cac-454c-b545-e78147cd2810",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T23:26:46.816887555Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/94e2169bdbaf40a6b09a575061a258c4 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/283480886568/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/283480886568/operations/acat.p2-283480886568-9131951a-8cac-454c-b545-e78147cd2810"
+    },
+    "insertId": "1lzwsghdmygs",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-11-03T23:26:46.360244Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:26:46.584808546Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/94e2169bdbaf40a6b09a575061a258c4 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/services/artifactregistry.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/onyx-gear-440723-s4/services/artifactregistry.googleapis.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "parent": "projects/283480886568",
+          "config": {
+            "title": "Artifact Registry API",
+            "name": "artifactregistry.googleapis.com"
+          },
+          "state": "ENABLED",
+          "name": "projects/283480886568/services/artifactregistry.googleapis.com"
+        }
+      }
+    },
+    "insertId": "-tdm809d9ja0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:26:47.514111164Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-283480886568-9131951a-8cac-454c-b545-e78147cd2810",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T23:26:47.514111164Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/94e2169bdbaf40a6b09a575061a258c4 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/283480886568/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/283480886568/operations/acat.p2-283480886568-9131951a-8cac-454c-b545-e78147cd2810"
+    },
+    "insertId": "zte22qdkkgd",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:26:48.908085Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:26:50.025713236Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/94e2169bdbaf40a6b09a575061a258c4 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T23:26:51.054005777Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/locations/us-central1",
+      "request": {
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "repository": {
+          "name": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3",
+          "dockerConfig": {
+            "immutableTags": true
+          },
+          "format": "DOCKER"
+        },
+        "parent": "projects/onyx-gear-440723-s4/locations/us-central1",
+        "repositoryId": "assign3"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "fkvtdpd3k4m",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-11-03T23:26:51.045613027Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/onyx-gear-440723-s4/locations/us-central1/operations/57eb1b71-0c81-4fb0-a0e9-a5f88ab11784",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T23:26:51.410150136Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/onyx-gear-440723-s4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/onyx-gear-440723-s4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/onyx-gear-440723-s4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-283480886568@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "resource": "283480886568",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "etag": "BwYmCnVTGfs=",
+          "bindings": [
+            {
+              "members": [
+                "user:jevariab@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccountId:116957451576733106383"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            }
+          ]
+        }
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "etag": "BwYmCoDEVfU=",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-283480886568@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "role": "roles/owner",
+            "members": [
+              "user:jevariab@gmail.com"
+            ]
+          }
+        ]
+      }
+    },
+    "insertId": "-on0whhe1irxo",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:26:51.737255Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:26:52.843540411Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3",
+      "response": {
+        "mode": "STANDARD_REPOSITORY",
+        "format": "DOCKER",
+        "description": "assignment 3 artifacts repository",
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-11-03T23:26:51.063392712Z"
+        },
+        "sbomConfig": {},
+        "name": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3",
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "dockerConfig": {
+          "immutableTags": true
+        }
+      }
+    },
+    "insertId": "fjw56odon49",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-11-03T23:26:59.289886344Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/onyx-gear-440723-s4/locations/us-central1/operations/57eb1b71-0c81-4fb0-a0e9-a5f88ab11784",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T23:26:59.888871277Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/a96db23dfcb24f5aabae3e8077a29316 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T23:28:19.654005128Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/locations/global",
+      "request": {
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "workloadIdentityPoolId": "github",
+        "parent": "projects/onyx-gear-440723-s4/locations/global",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "w8xhawdjhmz",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:28:19.644488938Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/283480886568/locations/global/workloadIdentityPools/github/operations/bifqrfeouc4qmefi7d7aq00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T23:28:20.920600222Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/onyx-gear-440723-s4/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/283480886568/locations/global/workloadIdentityPools/github/operations/bifqrfeouc4qmefi7d7aq00000000000"
+      }
+    },
+    "insertId": "-4zkz37c28g",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-03T23:28:20.227164Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/283480886568/locations/global/workloadIdentityPools/github/operations/bifqrfeouc4qmefi7d7aq00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T23:28:20.798688588Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/6b9ac201a2864baa9196357fe0d1c673 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-03T23:29:24.240340576Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github",
+      "request": {
+        "parent": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository",
+            "attribute.repository_owner": "assertion.repository_owner"
+          },
+          "displayName": "My GitHub repo Provider",
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "disabled": false
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "build-and-push-image-jay-compute"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1xxciardl1ec",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T23:29:24.220597947Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/283480886568/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute/operations/bigarveouc4qmeeisos56aq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-03T23:29:25.357084705Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/283480886568/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute/operations/bigarveouc4qmeeisos56aq000000000"
+      }
+    },
+    "insertId": "-sa7vesc169",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "onyx-gear-440723-s4",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-03T23:29:24.738082Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/283480886568/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute/operations/bigarveouc4qmeeisos56aq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-03T23:29:25.347764897Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/a8f9cae20adf4a6da92508c7246a8227 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/onyx-gear-440723-s4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/onyx-gear-440723-s4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/onyx-gear-440723-s4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.admin",
+              "member": "user:jevariab@gmail.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "resource": "onyx-gear-440723-s4",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-283480886568@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            },
+            {
+              "role": "roles/owner",
+              "members": [
+                "user:jevariab@gmail.com"
+              ]
+            },
+            {
+              "members": [
+                "user:jevariab@gmail.com"
+              ],
+              "role": "roles/artifactregistry.admin"
+            }
+          ],
+          "etag": "BwYmCoDEVfU="
+        }
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "user:jevariab@gmail.com"
+            ],
+            "role": "roles/artifactregistry.admin"
+          },
+          {
+            "members": [
+              "serviceAccount:service-283480886568@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "role": "roles/owner",
+            "members": [
+              "user:jevariab@gmail.com"
+            ]
+          }
+        ],
+        "etag": "BwYmCp5YJkA="
+      }
+    },
+    "insertId": "-1culgve21n22",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:35:07.539644Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:35:08.481017788Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.227.93.141",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/c24984c1e8bb4a51adda60d9fd886ed9 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/onyx-gear-440723-s4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/onyx-gear-440723-s4",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/onyx-gear-440723-s4",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.writer",
+              "member": "user:jevariab@gmail.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "onyx-gear-440723-s4",
+        "policy": {
+          "etag": "BwYmCp5YJkA=",
+          "bindings": [
+            {
+              "members": [
+                "user:jevariab@gmail.com"
+              ],
+              "role": "roles/artifactregistry.admin"
+            },
+            {
+              "members": [
+                "serviceAccount:service-283480886568@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            },
+            {
+              "members": [
+                "user:jevariab@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "user:jevariab@gmail.com"
+              ],
+              "role": "roles/artifactregistry.writer"
+            }
+          ]
+        }
+      },
+      "response": {
+        "etag": "BwYmCqSBhM4=",
+        "bindings": [
+          {
+            "members": [
+              "user:jevariab@gmail.com"
+            ],
+            "role": "roles/artifactregistry.admin"
+          },
+          {
+            "role": "roles/artifactregistry.serviceAgent",
+            "members": [
+              "serviceAccount:service-283480886568@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ]
+          },
+          {
+            "role": "roles/artifactregistry.writer",
+            "members": [
+              "user:jevariab@gmail.com"
+            ]
+          },
+          {
+            "members": [
+              "user:jevariab@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "-3uz725e21ods",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-03T23:36:50.651481Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-03T23:36:52.728430642Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.196.197.81",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/747cce64a1ef4a3faf554d419949d5a8 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T20:06:25.467791385Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "disabled": false,
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'",
+          "displayName": "My GitHub repo Provider"
+        },
+        "parent": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "build-and-push-image-jay-compute"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "6xs7wvdov11",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-04T20:06:25.445820150Z",
+    "severity": "ERROR",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T20:06:26.006246955Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.196.197.81",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/323472e27f1b439ca047e3836bab778b environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T20:07:41.330503835Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3",
+      "request": {
+        "resource": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "7tnul2d69qe",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-04T20:07:41.321003387Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T20:07:42.121874369Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid attribute condition. [ERROR 'ERROR: <expression>:2:1: mismatched input 'attribute' expecting {<EOF>, '==', '!=', 'in', '<', '<=', '>=', '>', '&&', '||', '[', '.', '-', '?', '+', '*', '/', '%%'}\n | attribute.owner == 'pitt-cs-1660'\n | ^' at 45]"
+      },
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.73",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T20:08:40.253802627Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'\nattribute.owner == 'pitt-cs-1660'",
+          "displayName": "My GitHub repo Provider",
+          "disabled": false,
+          "name": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute",
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub"
+          }
+        },
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest",
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson"
+      }
+    },
+    "insertId": "qo5xghdq9z2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-04T20:08:40.236650613Z",
+    "severity": "ERROR",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T20:08:40.855293034Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid attribute condition. [ERROR 'ERROR: <expression>:1:45: mismatched input ',' expecting {<EOF>, '==', '!=', 'in', '<', '<=', '>=', '>', '&&', '||', '[', '.', '-', '?', '+', '*', '/', '%%'}\n | assertion.repository_owner == 'pitt-cs-1660',\n | ............................................^' at 44]"
+      },
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.73",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-04T20:08:45.545259905Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute",
+          "permission": "iam.workloadIdentityPoolProviders.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "displayName": "My GitHub repo Provider",
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660',\nattribute.owner == 'pitt-cs-1660'",
+          "name": "projects/onyx-gear-440723-s4/locations/global/workloadIdentityPools/github/providers/build-and-push-image-jay-compute",
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          }
+        },
+        "@type": "type.googleapis.com/google.iam.v1.UpdateWorkloadIdentityPoolProviderRequest",
+        "updateMask": "displayName,disabled,attributeMapping,attributeCondition,oidc.issuerUri,oidc.allowedAudiences,oidc.jwksJson"
+      }
+    },
+    "insertId": "n1ylxfdpcnk",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.UpdateWorkloadIdentityPoolProvider",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-04T20:08:45.529544250Z",
+    "severity": "ERROR",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-04T20:08:46.303880013Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.237.221.194",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.add-iam-policy-binding invocation-id/db192ec55d264e4db881860791afb88d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568/services/secretmanager.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/secretmanager.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/services/secretmanager.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/onyx-gear-440723-s4/services/secretmanager.googleapis.com"
+      }
+    },
+    "insertId": "1es9v7hdztdj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-11-05T16:32:55.082625Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-283480886568-91863986-90f8-41a8-882d-7b63022f4eed",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-05T16:32:56.430537197Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.237.221.194",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.add-iam-policy-binding invocation-id/db192ec55d264e4db881860791afb88d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/283480886568/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/283480886568/operations/acat.p2-283480886568-91863986-90f8-41a8-882d-7b63022f4eed"
+    },
+    "insertId": "10cjs89dzxfr",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "onyx-gear-440723-s4"
+      }
+    },
+    "timestamp": "2024-11-05T16:32:55.649941Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-05T16:32:55.948805836Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.237.221.194",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.add-iam-policy-binding invocation-id/db192ec55d264e4db881860791afb88d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568/services/secretmanager.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/secretmanager.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/services/secretmanager.googleapis.com",
+      "request": {
+        "name": "projects/onyx-gear-440723-s4/services/secretmanager.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "parent": "projects/283480886568",
+          "config": {
+            "title": "Secret Manager API",
+            "name": "secretmanager.googleapis.com"
+          },
+          "state": "ENABLED",
+          "name": "projects/283480886568/services/secretmanager.googleapis.com"
+        }
+      }
+    },
+    "insertId": "-gcrkqgds568",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-11-05T16:32:57.408579114Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-283480886568-91863986-90f8-41a8-882d-7b63022f4eed",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-05T16:32:57.408579114Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.237.221.194",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.add-iam-policy-binding invocation-id/db192ec55d264e4db881860791afb88d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/283480886568/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/283480886568",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/283480886568/operations/acat.p2-283480886568-91863986-90f8-41a8-882d-7b63022f4eed"
+    },
+    "insertId": "xci7tddup5y",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-05T16:32:58.632424Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-05T16:32:59.613801281Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.178.85",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-05T16:38:04.954273825Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "secretmanager.googleapis.com",
+      "methodName": "google.cloud.secretmanager.v1.SecretManagerService.CreateSecret",
+      "authorizationInfo": [
+        {
+          "permission": "secretmanager.secrets.create",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "secretmanager.googleapis.com",
+            "name": "projects/283480886568/secrets/my-secret",
+            "type": "secretmanager.googleapis.com/Secret"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/283480886568/secrets/my-secret",
+      "request": {
+        "secret": {
+          "replication": {
+            "automatic": {}
+          }
+        },
+        "@type": "type.googleapis.com/google.cloud.secretmanager.v1.CreateSecretRequest",
+        "parent": "projects/283480886568",
+        "secretId": "my-secret"
+      },
+      "response": {
+        "name": "projects/283480886568/secrets/my-secret",
+        "@type": "type.googleapis.com/google.cloud.secretmanager.v1.Secret",
+        "createTime": "2024-11-05T16:38:05.540164Z",
+        "replication": {
+          "automatic": {}
+        }
+      }
+    },
+    "insertId": "5v1sz9e3dx89",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.cloud.secretmanager.v1.SecretManagerService.CreateSecret",
+        "project_id": "onyx-gear-440723-s4",
+        "service": "secretmanager.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-05T16:38:04.946048986Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-05T16:38:06.333561258Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.237.221.194",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.secrets.add-iam-policy-binding invocation-id/9cf6df3dcb1c4a348fdcf1de9c6fdccc environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-05T16:38:54.981408876Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "secretmanager.googleapis.com",
+      "methodName": "google.cloud.secretmanager.v1.SecretManagerService.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "permission": "secretmanager.secrets.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "secretmanager.googleapis.com",
+            "name": "projects/283480886568/secrets/my-secret",
+            "type": "secretmanager.googleapis.com/Secret"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/283480886568/secrets/my-secret",
+      "request": {
+        "policy": {
+          "etag": "ACAB",
+          "bindings": [
+            {
+              "role": "roles/secretmanager.secretAccessor",
+              "members": [
+                "principalSet://iam.googleapis.com/projects/283480886568/locations/global/workloadIdentityPools/github/attribute.repository/pitt-cs-1660/build-and-push-image-jay-compute"
+              ]
+            }
+          ]
+        },
+        "resource": "projects/onyx-gear-440723-s4/secrets/my-secret",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "etag": "BwYmLQl+w1g=",
+        "bindings": [
+          {
+            "role": "roles/secretmanager.secretAccessor",
+            "members": [
+              "principalSet://iam.googleapis.com/projects/283480886568/locations/global/workloadIdentityPools/github/attribute.repository/pitt-cs-1660/build-and-push-image-jay-compute"
+            ]
+          }
+        ],
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1kmbvw7e3anr2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "secretmanager.googleapis.com",
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.cloud.secretmanager.v1.SecretManagerService.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-11-05T16:38:54.511070985Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-05T16:38:55.365593773Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jevariab@gmail.com",
+        "principalSubject": "user:jevariab@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.237.221.194",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/c9a3b30055cb4a5394beedcf5742cd72 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-05T16:51:31.063463960Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/onyx-gear-440723-s4/locations/us-central1/repositories/assign3"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1pwcnaxc1mx",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "onyx-gear-440723-s4",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-05T16:51:31.057246317Z",
+    "severity": "NOTICE",
+    "logName": "projects/onyx-gear-440723-s4/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-05T16:51:31.350887750Z"
+  }
+]
